@@ -1,0 +1,6 @@
+function menuPage() {
+
+}
+
+
+export { menuPage };

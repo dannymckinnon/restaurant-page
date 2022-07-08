@@ -1,0 +1,6 @@
+function contactPage() {
+
+}
+
+
+export { contactPage };
