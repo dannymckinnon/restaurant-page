@@ -1,5 +1,5 @@
 function contactPage() {
-
+  alert('Contact page');
 }
 
 
