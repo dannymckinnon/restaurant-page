@@ -1,0 +1,15 @@
+#content {
+  margin: 0 auto;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: peachpuff;
+  border-radius: 8px;
+  padding: 0 50px;
+}
+
+#content, img {
+  width: 600px;
+}
+
