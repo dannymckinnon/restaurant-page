@@ -30,6 +30,8 @@ function contactPage() {
       contactElement.appendChild(e);
     }
 
+    contactElement.classList.add('contact');
+
     return contactElement;
   }
 

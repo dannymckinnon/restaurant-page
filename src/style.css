@@ -15,11 +15,6 @@
   gap: 20px;
 }
 
-.home-img {
-  width: 600px;
-  border-radius: 5px;
-}
-
 nav {
   display: flex;
   justify-content: center;
@@ -31,4 +26,17 @@ nav {
 nav button {
   padding: 5px 0px;
   width: 85px;
+}
+
+.home-img {
+  width: 600px;
+  border-radius: 8px;
+}
+
+.contact img {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+  object-position: 100% 0;
+  border-radius: 8px;
 }
