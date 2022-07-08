@@ -12,6 +12,7 @@ function homePage() {
   title.textContent = 'Home';
   restaurantName.textContent = 'Danny\'s restuarant';
   pancakeImg.setAttribute('src', '/src/pancakes.jpg');
+  pancakeImg.classList.add('home-img');
   description.textContent = `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, ratione.
                              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, odio?
                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam aspernatur unde soluta.
