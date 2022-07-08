@@ -1,11 +1,14 @@
 function homePage() {
-  let content = document.getElementById('content');
-  
-  let h1 = document.createElement('h1');
+  const content = document.getElementById('content');
+  const title = document.createElement('h1');
+  const restaurantName = document.createElement('h2');
 
-  h1.textContent = 'Home';
+  restaurantName.textContent = 'Danny\'s restuarant';
+  title.textContent = 'Home';
 
-  content.appendChild(h1);
+  for (const e of [title, restaurantName]) {
+    content.appendChild(e);
+  }
 }
 
 
