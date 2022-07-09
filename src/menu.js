@@ -26,14 +26,13 @@ function menuPage() {
     for (const e of [itemElement, infoElement, priceElement, imgElement]) {
       menuElement.appendChild(e);
     }
-
+    menuElement.classList.add('menu-item');
     return menuElement;
   }
 
   
 
   for (const e of [title, item1, item2, item3]) {
-    e.classList.add('menu-item');
     content.appendChild(e);
   }
 }
