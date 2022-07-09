@@ -24,7 +24,7 @@ function menuPage() {
     itemElement.textContent = item;
     infoElement.textContent = description;
     priceElement.textContent = '$' + price;
-    imgElement.setAttribute('src', img);
+    imgElement.src = img;
 
 
     for (const e of [itemElement, infoElement, priceElement, imgElement]) {

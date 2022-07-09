@@ -22,7 +22,7 @@ function contactPage() {
     const emailElement = document.createElement('p');
 
     nameElement.textContent = name;
-    imgElement.setAttribute('src', img);
+    imgElement.src = img;
     positionElement.textContent = position;
     numElement.textContent = number;
     emailElement.textContent = email;
