@@ -1,9 +1,14 @@
+import mamabear from '/src/mamabear.png';
+import papabear from '/src/papabear.jpeg';
+import babybear from '/src/babybear.jpeg';
+
+
 function contactPage() {
   const content = document.getElementById('content');
   const title = document.createElement('h1');
-  const person1 = createContact('Mama Bear', 'Chef', '555-555-5554', 'fakeemail@gmail.com', '/src/mamabear.png');
-  const person2 = createContact('Papa Bear', 'Manager', '555-555-5555', 'tehfakeiones@gmail.com', '/src/papabear.jpeg');
-  const person3 = createContact('Baby Bear', 'Waiter', '555-555-5556', 'fakiestemail@gmail.com', '/src/babybear.jpeg');
+  const person1 = createContact('Mama Bear', 'Chef', '555-555-5554', 'fakeemail@gmail.com', mamabear);
+  const person2 = createContact('Papa Bear', 'Manager', '555-555-5555', 'tehfakeiones@gmail.com', papabear);
+  const person3 = createContact('Baby Bear', 'Waiter', '555-555-5556', 'fakiestemail@gmail.com', babybear);
 
   title.textContent = 'Contact Us';
 

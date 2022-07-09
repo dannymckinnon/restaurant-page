@@ -1,12 +1,16 @@
+import pancakes from '/src/pancakes.jpg';
+import frenchtoast from '/src/frenchToast.jpg';
+import veggiesandwich from '/src/veggieSandwich.jpg';
+
 function menuPage() {
   const content = document.getElementById('content');
   const title = document.createElement('h1');
   const item1 = createMenuItem('Pancakes', 'A stack of homemade buttermilk pancakes, served with our locally sourced maple syrup.', 
-                               '4', '/src/pancakes.jpg');
+                               '4', pancakes);
   const item2 = createMenuItem('French Toast', 'Two slices of the best french toast you will ever eat, served with our locally sourced maple syrup.',
-                               '5', '/src/frenchToast.jpg');
+                               '5', frenchtoast);
   const item3 = createMenuItem('Veggie Sandwich', 'Do you like vegetables? Then this is the sandwich for you! Stuffed full of a variety of fresh produce, it will fill you up.',
-                               '8', '/src/veggieSandwich.jpg');
+                               '8', veggiesandwich);
 
   title.textContent = 'Menu';
 

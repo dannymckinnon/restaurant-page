@@ -1,4 +1,4 @@
-import pancakes from '/src/pancakes.jpg';
+import Pancakes from './pancakes.jpg';
 
 function homePage() {
   const content = document.getElementById('content');
@@ -13,7 +13,7 @@ function homePage() {
 
   title.textContent = 'Home';
   restaurantName.textContent = 'Danny\'s restuarant';
-  pancakeImg.setAttribute('src', pancakes);
+  pancakeImg.setAttribute('src', Pancakes);
   pancakeImg.classList.add('home-img');
   description.textContent = `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, ratione.
                              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, odio?
