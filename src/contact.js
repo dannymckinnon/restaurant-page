@@ -1,6 +1,6 @@
-import Mamabear from '/src/mamabear.png';
-import Papabear from '/src/papabear.jpeg';
-import Babybear from '/src/babybear.jpeg';
+import Mamabear from './mamabear.png';
+import Papabear from './papabear.jpeg';
+import Babybear from './babybear.jpeg';
 
 
 function contactPage() {

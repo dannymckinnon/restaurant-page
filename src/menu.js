@@ -1,6 +1,6 @@
-import Pancakes from '/src/pancakes.jpg';
-import Frenchtoast from '/src/frenchToast.jpg';
-import Veggiesandwich from '/src/veggieSandwich.jpg';
+import Pancakes from './pancakes.jpg';
+import Frenchtoast from './frenchToast.jpg';
+import Veggiesandwich from './veggieSandwich.jpg';
 
 function menuPage() {
   const content = document.getElementById('content');
